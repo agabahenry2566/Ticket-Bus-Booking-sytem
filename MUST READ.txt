@@ -1,0 +1,16 @@
+bus booking services
+
+put the isaac folder in htdocs
+create a database called "bus_booking"
+import the database in bus_booking folder/databse to the created dattabase.
+
+
+There a two sites
+*the official website, access it through the path,       http://localhost/isaac/index.html
+
+*the admin page, where you can verify the customer ticket,   http://localhost/isaac/bus_booking/admin.php
+
+*the login details
+username-admin
+passcode-admin123
+

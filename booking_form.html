@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Book with us @link Bus Services </title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+
+
+
+</head>
+
+<body>
+    <form method="post" action="connect.php" enctype="multipart/form-data">
+        <br>
+        <div style="background-image: url(images/background.jpg);" data-aos="fade">
+            <br><br>
+            <div class="row align-items-center justify-content-center text-center">
+
+                <div id="booking" class="section">
+                    <div class="section-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="booking-form">
+                                    <div class="form-header">
+                                        <h1 class="text-dark font-weight-light mb-5 text-uppercase font-weight-bold">Make your reservation</h1>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label text-black font-weight-bold">Depature area</span>
+                                                <input class="form-control" placeholder="town/city" name="departure_area">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Destination</span>
+                                                <input class="form-control" placeholder="town/city" name="destination">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">travel date</span>
+                                                <input class="form-control" type="date" name="travel_date" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Bus type</span>
+                                                <select class="form-control" name="bus_type" required>
+											<option value="" selected hidden>select bus</option>
+											<option>ordinally</option>
+											<option>VIP</option>
+										</select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Adults</span>
+                                                <select class="form-control" name="adults" required>
+											<option value="" selected hidden>no of adults</option>
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>more</option>
+										</select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Children</span>
+                                                <select class="form-control" name="children" required>
+											<option value="" selected hidden>no of children</option>
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>more</option>
+										</select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Luggage</span>
+                                                <select class="form-control" name="luggage" required>
+											<option value="" selected hidden>luggage</option>
+											<option>Yes</option>
+											<option>No</option>
+										</select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Email</span>
+                                                <input class="form-control" name="email" type="email" placeholder="Enter your Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label text-white font-weight-bold">Phone</span>
+                                                <input class="form-control" name="phone" type="tel" placeholder="Enter you Phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <span class="form-label text-white font-weight-bold">Description(if any)</span>
+                                        <input class="form-control" name="description" type="text" placeholder="incase of more numbers">
+                                    </div>
+                                    <div class="form-btn">
+                                        <button class="submit-btn" type="submit" name="book">Submit</button>
+                                    </div>
+                                    <div class=" text-right text-info font-weight-bold"><a href="index.html">Home</a></div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
